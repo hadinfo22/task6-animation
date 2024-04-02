@@ -1,0 +1,299 @@
+.content{
+    width:90%;
+    height:90vh;
+    box-shadow:10px 15px 15px 15px rgb(221, 102, 33) ;
+    margin:auto;
+    position:relative;
+    margin-top:20px;
+    animation-name:create1;
+    animation-duration:21s;
+}
+@keyframes create1{
+    14.30%{
+        box-shadow:10px 15px 15px 15px rgb(148, 180, 206);
+    }
+    28.60%{
+        box-shadow:10px 15px 15px 15px rgb(231, 102, 220);
+    }
+    42.9%{
+        box-shadow:10px 15px 15px 15px rgb(33, 136, 233);
+    }
+    57.2%{
+        box-shadow:10px 15px 15px 15px rgb(221, 102, 33);
+    }
+    71.5%{
+        box-shadow:10px 15px 15px 15px rgb(148, 180, 206);
+    }
+    85.8%{
+        box-shadow:10px 15px 15px 15px rgb(231, 102, 220);
+    }
+    100%{
+        box-shadow:10px 15px 15px 15px rgb(33, 136, 233);
+    }
+}
+.content-title{
+    width:80%;
+    height:120px;
+    background-size:cover;
+    text-align:center;
+    border:1px solid none;
+    border-radius:50%;
+    box-shadow:10px 15px 15px 15px rgb(221, 102, 33);
+    position:absolute;
+    top:30px;
+    left:50%;
+    transform:translate(-50%,0);
+    animation-name:create2;
+    animation-duration:21s;
+}
+@keyframes create2{
+    14.30%{
+        box-shadow:10px 15px 15px 15px rgb(148, 180, 206);
+    }
+    28.60%{
+        box-shadow:10px 15px 15px 15px rgb(231, 102, 220);
+    }
+    42.9%{
+        box-shadow:10px 15px 15px 15px rgb(33, 136, 233);
+    }
+    57.2%{
+        box-shadow:10px 15px 15px 15px rgb(221, 102, 33);
+    }
+    71.5%{
+        box-shadow:10px 15px 15px 15px rgb(148, 180, 206);
+    }
+    85.8%{
+        box-shadow:10px 15px 15px 15px rgb(231, 102, 220);
+    }
+    100%{
+        box-shadow:10px 15px 15px 15px rgb(33, 136, 233);
+    }
+
+}
+.line{
+    width:150px;
+    height:5px;
+    background-color:rgb(221, 102, 33);
+    margin:auto;
+    animation-name:create3;
+    animation-duration:21s;
+}
+@keyframes create3{
+    14.30%{
+        background-color:rgb(148, 180, 206);
+    }
+    28.60%{
+        background-color:rgb(231, 102, 220);
+    }
+    42.9%{
+        background-color:rgb(33, 136, 233);
+    }
+    57.2%{
+        background-color:rgb(221, 102, 33);
+    }
+    71.5%{
+        background-color:rgb(148, 180, 206);
+    }
+    85.8%{
+        background-color:rgb(231, 102, 220);
+    }
+    100%{
+        background-color:rgb(33, 136, 233);
+    }
+}
+.title1{
+    font:normal 750 30px Georgia, 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+    word-spacing:8px;
+    letter-spacing:3px;
+    padding-top:20px;
+    text-shadow:10px 15px 15px rgb(221, 102, 33);
+    color:rgb(221, 102, 33);;
+    animation-name:create4;
+    animation-duration:21s;
+}
+@keyframes create4{
+    14.30%{
+        text-shadow:10px 15px 15px rgb(148, 180, 206);
+        color:rgb(148, 180, 206);
+    }
+    28.60%{
+        text-shadow:10px 15px 15px rgb(231, 102, 220);
+        color:rgb(231, 102, 220);
+    }
+    42.9%{
+        text-shadow:10px 15px 15px rgb(33, 136, 233);
+        color:rgb(33, 136, 233);
+    }
+    57.2%{
+        text-shadow:10px 15px 15px rgb(221, 102, 33);
+        color:rgb(221, 102, 33);
+    }
+    71.5%{
+        text-shadow:10px 15px 15px rgb(148, 180, 206);
+        color:rgb(148, 180, 206);;
+    }
+    85.8%{
+        text-shadow:10px 15px 15px rgb(231, 102, 220);
+        color:rgb(231, 102, 220);
+    }
+    100%{
+        text-shadow:10px 15px 15px rgb(33, 136, 233);
+        color:rgb(33, 136, 233);
+    }
+}
+.title2{
+    font:normal bold 18px 'Times New Roman', Times, serif ;
+    color:black;
+    text-transform:capitalize;
+}
+.div1{
+    width:220px;
+    height:50px;
+    border:1px solid none;
+    border-radius:20px 40px;
+    text-align:center;
+    position:absolute;
+    background-size:cover;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+}
+.box-left{
+    left:20px;
+}
+.box-right{
+    right:20px;
+}
+.box1{
+    background:url(../images/autumn1.jpg);
+    top:190px; 
+    animation-name:change1; 
+}
+@keyframes change1{
+    from{
+        background:url(../images/autumn1.jpg);
+        left:0px;
+    }
+    to{
+        background:url(../images/winter1.jpg);
+        left:800px;
+        box-shadow:rgb(77, 160, 216);
+    } 
+}
+
+.box2{
+    background:url(../images/winter1.jpg);
+    top:270px;
+    animation-name:change2;
+    animation-delay:3s;
+}
+@keyframes change2{
+    from{
+        background:url(../images/winter1.jpg);
+        right:0;
+    }
+    to{
+        background:url(../images/spring1.jpg);
+        right:800px;
+    }
+}
+
+.box3{
+    background:url(../images/spring1.jpg);
+    top:340px;
+    animation-name:change3;
+    animation-delay:6s; 
+}
+@keyframes change3{
+    from{
+        background:url(../images/spring1.jpg);
+        left:0;
+ 
+    }
+    to{
+        background:url(../images/summer1.jpg);
+        left:800px;
+        
+    }
+}
+.box4{
+    background:url(../images/summer1.jpg);
+    top:410px;
+    animation-name:change4;
+    animation-delay:9s;
+}
+@keyframes change4{
+    from{
+        background:url(../images/summer1.jpg);
+        right:0;
+    }
+    to{
+      background:url(../images/autumn1.jpg);
+      right:800px;
+    }
+
+}
+.box5{
+    background:url(../images/autumn1.jpg);
+    top:480px;
+    animation-name:change5;
+    animation-delay:12s;
+}
+@keyframes change5{
+    from{
+        background:url(../images/autumn1.jpg);
+        left:0;
+    }
+    to{
+      background:url(../images/winter1.jpg);
+      left:800px;
+    }
+}
+.box6{
+    background:url(../images/winter1.jpg);
+    top:550px;
+    animation-name:change6;
+    animation-delay:15s;  
+}
+@keyframes change6{
+    from{
+        background:url(../images/winter1.jpg);
+        right:0;
+    }
+    to{
+    background:url(../images/spring1.jpg); 
+    right:800px; 
+    }
+}
+.box7{
+    background:url(../images/spring1.jpg);
+    top:620px;
+    animation-name:change7;
+    animation-delay:18s;
+}
+@keyframes change7{
+    from{
+        background:url(../images/spring1.jpg);
+        left:0;
+    }
+    to{
+      background:url(../images/summer1.jpg);
+      left:800px;
+    }
+}
+.box8{
+    background:url(../images/summer1.jpg);
+    top:690px; 
+    animation-name:change8;
+    animation-delay:21s;   
+}
+@keyframes change8{
+    from{
+        background:url(../images/summer1.jpg);
+        right:0;
+    }
+    to{
+      background:url(../images/autumn1.jpg);
+      right:800px;
+    }
+}
